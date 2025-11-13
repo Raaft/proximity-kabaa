@@ -136,6 +136,7 @@ class _MeccaProximityViewState extends State<_MeccaProximityView>
           ],
         ),
         elevation: 0,
+
       ),
       body: BlocBuilder<LocationCubit, LocationState>(
         builder: (context, state) {
